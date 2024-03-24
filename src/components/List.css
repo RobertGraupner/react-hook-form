@@ -1,0 +1,29 @@
+ul {
+    display: inline-block;
+    padding: 0;
+    list-style-type: none;
+}
+
+.person {
+    display: block;
+    border: solid 2px;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.person-name {
+    font-weight: 500;
+}
+
+.person-age {
+    font-weight: 400;
+}
+
+.person-tel,
+.person-email,
+.person-nip {
+    display: block;
+    font-size: 12px;
+    margin: 4px 0;
+}

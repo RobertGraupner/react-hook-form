@@ -1,0 +1,60 @@
+form {
+    display: inline-block;
+    border: solid 2px;
+    padding: 16px 24px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+form span {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    margin: 12px 0 4px;
+}
+
+input:not([type="checkbox"]) {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: solid 2px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    border-top: solid 2px;
+    padding-top: 8px;
+    margin: 16px 0 16px;
+}
+
+button {
+    background: #fff;
+    border: solid 2px;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.error {
+    font-size: 14px;
+    margin: 4px 0;
+    color: #c31919;
+}
+
+.footer .error {
+    width: 100%;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+}
